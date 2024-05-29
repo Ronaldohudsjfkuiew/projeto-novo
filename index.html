@@ -4,17 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
    <div class="container">
         <div id="item1">
-            <div id="elemento1">elemento1</div>
-            <div id="elemento2">elemento2</div>
-            <div id="elemento3">elemento3</div>
-            <div id="elemento4">elemento4</div>
+            <div id="elemento1">
+                <label for="">Calculadora-somar</label><br>
+                <label for="">Digite um numero</label><br>
+                <input type="nunber" id="num1"><br>
+                <label for="">Digite outro numero:</label>
+                <input type="nunber" id="num2">
+                <button type="submit" onclick="somarNumeros()">Somar</button>
+                <div id="resultado">resultado:</div>
+            </div>
+            <div id="elemento2">
+                <label for="">Calculadora-subtrair</label><br>
+                <label for="">Digite um numero</label><br>
+                <input type="nunber" id="num3"><br>
+                <label for="">Digite outro numero:</label>
+                <input type="nunber" id="num4">
+                <button type="submit" onclick="subtrairNumeros()">Somar</button>
+                <div id="resultadoSubtrair">resultado:</div>
+            </div>
+            <div id="elemento3">
+                <label for="">Calculadora-multiplicar</label><br>
+                <label for="">Digite um numero</label><br>
+                <input type="nunber" id="num5"><br>
+                <label for="">Digite outro numero:</label>
+                <input type="nunber" id="num6">
+                <button type="submit" onclick="multiplicarNumeros()">Somar</button>
+                <div id="resultadoMultiplicar">resultado:</div>
+            </div>
+            <div id="elemento4">
+                <label for="">Calculadora-divisão</label><br>
+                <label for="">Digite um numero</label><br>
+                <input type="nunber" id="num7"><br>
+                <label for="">Digite outro numero:</label>
+                <input type="nunber" id="num8">
+                <button type="submit" onclick="dividirNumeros()">Somar</button>
+                <div id="resultadoDividir">resultado:</div>
+            </div>
+        </div> 
+
+        <div id="item2">
+            <div id="conversao1">
+            <label for="">Temperatura</label><br>
+            <label for="">Digite Fareneith</label><br>
+            <input type="nunber" id="num9"><br>
+            <button type="submit" onclick="converterTemperatura1()">Converter</button>
+            <div id="resultadocelsius">Temperatura convertido para celsius:</div>
+            </div>
+            <div id="conversao2">
+                <label for="">Temperatura</label><br>
+                <label for="">Digite Celsius</label><br>
+                <input type="nunber" id="num10"><br>
+                <button type="submit" onclick="converterTemperatura2()">Converter</button>
+                <div id="resultadofareneith">Temperatura convertido para celsius:</div>
+            </div>
+            <div id="conversao3">
+                <label for="">Calculo da área do retângulo</label><br>
+                <label for="">Digite o comprimento</label><br>
+                <input type="nunber" id="num11"><br>
+                <label for="">Digite a largura:</label>
+                <input type="nunber" id="num12">
+                <button type="submit" onclick="areaNumeros1()">Calcular</button>
+                <div id="resultadoarea1">resultado:</div>
+            </div>
+            <div id="conversao4">
+                <label for="">Calculo da área do círculo</label><br>
+                <label for="">Digite o raio</label><br>
+                <input type="nunber" id="num13"><br>
+                <button type="submit" onclick="areaNumeros2()">Calcular</button>
+                <div id="resultadoarea2">resultado:</div>
+            </div>
         </div>
-        <div id="item2">item 2</div>
         <div id="item3">item 3</div>
         <div id="item4">item 4</div>
         <div id="item5">item 5</div>
